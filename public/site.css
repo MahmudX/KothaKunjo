@@ -1,0 +1,62 @@
+@import url("https://use.typekit.net/hpu2pzx.css");
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #1E90FF;
+    --secondary-color: #FF6347;
+    --tertiary-color: #FFD700;
+    --quaternary-color: #FFA500;
+    --quinary-color: #FF4500;
+    --senary-color: #FF0000;
+    --septenary-color: #FF1493;
+    --octonary-color: #FF69B4;
+    --nonary-color: #FFC0CB;
+    --denary-color: #FFDAB9;
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Noto Sans Bengali', sans-serif;
+    --tertiary-font: 'Space Grotesk', sans-serif;
+    --flamingo-gradient: linear-gradient(128.87deg, #d600aa 14.05%, #cb4150 89.3%);
+    --purple-magenda: linear-gradient(128.87deg, #512bd4 14.05%, #d600aa 89.3%);
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Space Grotesk', 'Hind Siliguri', sans-serif;
+}
+
+.text-gradient {
+    /* Set the background color */
+    background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-purple-magenta {
+    /* Set the background color */
+    background: linear-gradient(128.87deg, #512bd4 14.05%, #d600aa 89.3%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand {
+    font-family: 'Hind Siliguri', 'Noto Sans Bengali', sans-serif !important;
+}
