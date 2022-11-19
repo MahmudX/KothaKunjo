@@ -3,7 +3,7 @@ class AppConstants {
 
     }
     public static get API_ENDPOINT(): string {
-        return 'http://kothakunjo.com';
+        return 'https://kothakunjo.com';
         return 'https://localhost:7207';
     }
 }
