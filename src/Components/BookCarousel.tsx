@@ -1,5 +1,4 @@
 import React, { useEffect, useState, TouchEvent, FC } from 'react'
-import { ArrowRight16Filled, ArrowLeft16Filled } from '@fluentui/react-icons'
 import Book from '../Models/Book'
 import BookCard from './BookCard'
 import './BookCarousel.css'
@@ -66,7 +65,7 @@ const BookCarousel: FC<BookCarouselProps> = ({ books, show }) => {
                     currentIndex > 0 &&
                     <button onClick={prev} className="position-relative left-arrow">
                         <div className='position-absolute top-50 start-50 translate-middle'>
-                            <ArrowLeft16Filled />
+                            {/* <ArrowLeft16Filled /> */}
                         </div>
                     </button>
                 }
@@ -87,7 +86,7 @@ const BookCarousel: FC<BookCarouselProps> = ({ books, show }) => {
                     currentIndex < (length - show) &&
                     <button onClick={next} className="position-relative right-arrow">
                         <div className='position-absolute top-50 start-50 translate-middle'>
-                            <ArrowRight16Filled />
+                            {/* <ArrowRight16Filled /> */}
                         </div>
                     </button>
                 }

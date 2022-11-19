@@ -1,7 +1,6 @@
-import { makeStyles, Body1, Caption1, Button, shorthands } from "@fluentui/react-components";
-import { Card, CardFooter, CardHeader, CardPreview } from "@fluentui/react-components/unstable";
-import React, { FC } from 'react';
-import { ArrowReplyRegular, ShareRegular } from '@fluentui/react-icons';
+import { makeStyles, Button } from "@fluentui/react-components";
+import { Card } from "@fluentui/react-components/unstable";
+import { FC } from 'react';
 import "./BookCard.css"
 import Book from "../Models/Book";
 
