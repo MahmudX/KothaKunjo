@@ -18,7 +18,7 @@ interface BookCardProps {
 const BookCard: FC<BookCardProps> = ({ book }) => {
   const styles = useStyles();
   return <Card className={styles.card}>
-    <img src="https://picsum.photos/300/200" alt="Face of a person" />
+    <img src={"https://picsum.photos/300/200/?random=" + book.id} alt="Face of a person" />
     <strong className="max-two-line">{book.name}</strong>
     <span>{book.authorNames}</span>
     <h5 className="text-gradient">${book.mrp}</h5>
